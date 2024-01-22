@@ -107,7 +107,7 @@ write (man 2 write)
 ## How to add Author file
 `Bash script for generating the list of authors in git repo`
 ```
-#!/bin/sh
+#!/bin/bash
 
 git shortlog -se \
   | perl -spe 's/^\s+\d+\s+//' \
